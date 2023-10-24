@@ -27,6 +27,7 @@ function draw() {
     rect(10,300, 120, 300);
  // green branch
   fill(70, 130, 87);
+
   triangle(10, 330, 24,112, 127, 12);
   triangle(50, 430, 123,122, 151, 13);
   triangle(60, 500, 203, 12, 10, 103);
@@ -35,7 +36,16 @@ function draw() {
   triangle(0, 50, 320,106, 120, 30);  
   triangle(0, 120, 3, 12, 100, 60);
   
+  fill('white');
+ let numCircles = 50;
+let r = (height)/40;
 
+for (x = 6; x < numCircles; x++){
+ellipse(x*2*r, height/12, r);
+
+  
+}
+  
 
 }
 
